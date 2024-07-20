@@ -1,0 +1,45 @@
+/* style.css */
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #e0f7fa; /* 薄い水色 */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-legend {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.icon-legend ul {
+    list-style: none;
+    padding: 0;
+}
+
+.icon-legend li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.event1-icon {
+    background-color: #ff9999; /* 赤 */
+}
+
+.event2-icon {
+    background-color: #99ff99; /* 緑 */
+}
+
+.event3-icon {
+    background-color: #9999ff; /* 青 */
+}
